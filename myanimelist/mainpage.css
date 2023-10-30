@@ -1,0 +1,437 @@
+
+
+/* ==UserStyle==
+@name           myanimelist.net - 10/30/2023, 7:23:22 AM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("myanimelist.net") {
+    html.dark-mode .page-common #menu.halloween {
+  background-color: #13191c;
+}
+
+html.dark-mode .page-common #menu.halloween #nav li a {
+  background: #13191c;
+  color: #fff;
+}
+
+html.dark-mode .page-common #menu.halloween #menu_right {
+  background: #13191c;
+}
+
+html.dark-mode .page-common #menu.halloween #nav li a.halloween {
+  display: none;
+
+}
+
+html.dark-mode .page-common #menu.halloween #menu_left {
+  display: none;
+}
+
+.dark-mode .page-common #searchBar.searchBar #topSearchValue {
+  display: none;
+}
+
+.dark-mode .page-common #searchBar.searchBar #topSearchText {
+  border-bottom: 0;
+  border-left: #13191c 1px solid;
+  border-right: 0;
+  border-top: 0;
+  display: inline-block;
+  font-family: Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+  height: 18px;
+  padding-left: 2px;
+  text-indent: 4px;
+  width: 286px;
+}
+
+.dark-mode .page-common #searchBar.searchBar #topSearchButon {
+  background-color: #29353b;
+  border: #121212 0 solid;
+    border-left-color: rgb(18, 18, 18);
+    border-left-style: solid;
+    border-left-width: 0px;
+  border-left: #29353b 1px solid;
+  border-radius: 0 4px 4px 0;
+  color: #abc4ed;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Font Awesome 6 Pro',Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+  font-size: 12px;
+  font-weight: 900;
+  height: 22px;
+  overflow: hidden;
+  width: 26px;
+}
+
+.dark-mode .page-common #header-menu .header-menu-login .btn-mal-service {
+  display: none;
+}
+
+.dark-mode body:not(.ownlist) {
+  background-color: #13191c;
+}
+
+.dark-mode .page-common .halloween .h1 {
+  background-color: #243035;
+  border-bottom-color: #243035;
+}
+
+.dark-mode .user-profile .user-button .btn-profile-submit {
+  background-color: #29353b;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 0;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  width: 110px;
+}
+
+.dark-mode .page-common .btn-form-submit {
+  background-color: #29353b;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  min-width: 160px;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.dark-mode body:not(.ownlist) {
+  font-family: Lato;
+  font-size: 14px;
+  text-align: center;
+}
+
+.dark-mode .page-common .header-right {
+  display: block;
+  float: right;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.0em;
+  margin: 9px;
+    margin-top: 9px;
+}
+
+.dark-mode .page-common .h1 {
+  color: #e0e0e0;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.dark-mode .page-common a, .dark-mode .page-common a:visited {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.header-notification{
+display: none !important;}
+}
+
+.dark-mode .page-common .header-profile {
+  cursor: pointer;
+  display: table-cell;
+  height: 30px;
+  position: relative;
+  vertical-align: middle;
+}
+.dark-mode .page-common .pr8 {
+  padding-right: 8px !important;
+}
+.dark-mode .page-common .pl8 {
+  padding-left: 8px !important;
+}
+
+.dark-mode .page-common #header-menu > .border {
+  border-collapse: separate;
+  display: ruby-text;
+  padding-left: 1px;
+}
+
+.dark-mode .page-common .mt4 {
+  margin-top: 2px !important;
+}
+
+.dark-mode .page-common .content-container .container-right h5 {
+  border-bottom: #222 1px solid;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+    margin-bottom: 0px;
+  padding: 0;
+    padding-bottom: 0px;
+  padding-bottom: 2px;
+}
+
+.dark-mode .page-common .ff-Verdana {
+  font-family: Lato;
+}
+
+.dark-mode .mal-badge.new-statistics {
+  background: #832f30;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.2em;
+  padding: 2px 4px;
+  vertical-align: middle;
+}
+
+
+#footer-block {
+display: none !important;
+}   
+
+#myanimelist{
+padding-bottom: /*[[footerspace]]*/px;      
+}    
+
+
+#content > div > div.container-right > div.clearfix,
+#contentWrapper > div.mauto.clearfix.pt24 {
+display: none !important;
+}
+
+
+.footer-ranking {
+display: none !important;
+}       
+
+
+.grecaptcha-badge,
+.rc-anchor-normal-footer,
+.rc-anchor-light,
+.rc-anchor-error-msg-container,
+.rc-anchor-invisible-text{
+    display: none !important;
+    opacity: 0 !important;
+  }
+  .grecaptcha-badge,
+.rc-anchor-normal-footer,
+.rc-anchor-light,
+.rc-anchor-error-msg-container,
+.rc-anchor-invisible-text{
+    display: none !important;
+    opacity: 0 !important;
+}
+
+
+
+
+.dark-mode .page-common #headerSmall .banner-header-anime-straming, 
+.page-common #headerSmall .banner-header-anime-straming {
+     display: none !important;
+}
+
+
+.dark-mode .bottom-bar .inner,
+.sUaidzctQfngSNMH-pdatla {
+    display: none !important;
+}
+
+
+
+
+
+div.sUaidzctQfngSNMH-pdatla{
+    display:none !important
+}
+.dark-mode .page-common #headerSmall .banner-header-anime-straming{
+    display:none !important
+}
+
+.sUaidzctQfngSNMH-pdatla{
+        display:none
+    }
+body.index .right-column{
+        width:320px !important
+    }
+.widget-slide-block .widget-slide-outer{
+        width:120% !important
+    }
+.page-common #headerSmall{
+    width:100%;
+}
+.page-common #myanimelist {
+	width: 80% !important;
+}
+    div.l-aboutme-contents.ga-pageview{
+        width:100% !important
+    }
+.page-common #menu {
+	width: 100% !important;
+}
+    .dark-mode #widget-episode-video
+    {
+        width: 100% !important;
+    }
+    .right-column
+    {
+     width:15vw !important   
+    }
+    .left-column
+    {
+     width:65vw !important   
+    }
+    div.left-column.fl-l.divider{
+        width:47% !important
+    }
+    div.left-right.fl-r{
+        width:47% !important
+    }
+    .widget.mxj .widget-content .content{
+        display:none !important
+    }
+    div._cm-os-slider._cm_native_ad_background_color{
+        display:none !important
+    }
+    #tbl-next-up.in-viewport.tbl-next-up-position-right{
+        display:none !important
+    }
+    div.text-ribbon.ga-click.ga-impression{
+        display:none !important
+    } 
+
+
+.page-common .h1.edit-info div.header-right {
+    width: 100vh !important
+   
+}
+    .widget-slide-block .widget-slide{
+        width:95%!important
+    }
+.widget-slide-block .widget-slide-outer {
+	width: 100%;
+}
+#widget-episode-video {
+	width: 100%;
+}
+#widget-episode-video .widget-slide-outer {
+	width: 95%;
+    }
+    
+    /*seasonal anime*/
+    .navi-seasonal.fixed {
+        width:79%!important;
+        display:none !important;
+    }
+    .navi-seasonal {
+        width:98.6%!important;
+}
+        
+        
+/* hide trailer */
+  #episode_video {
+	background-image: url('https://img1.ak.crunchyroll.com/i/spire4-tmb/4ad7006be1e71909f942ef870410db581644738682_large.jpg');
+	width: 194px;
+	height: 129px;
+	display: none;
+     
+    }
+        
+        
+.dark-mode .page-common .inputButton {
+  background-color: #29353b;
+  border: none;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+  border-radius: 2px;
+  color: #fff;
+  cursor: pointer;
+  font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+  font-size: 14px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.dark-mode .page-common #profileRows a:first-of-type {
+  border-top: #29353b 1px solid;
+}
+
+.dark-mode .page-common #profileRows a, .dark-mode .page-common .profileRows a {
+  border-color: #29353b;
+    border-top-color: rgb(41, 53, 59);
+  border-style: solid;
+    border-top-style: solid;
+  border-width: 0 0 1px;
+    border-top-width: 0px;
+  color: #f0f0f0;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+  padding: 2px 3px;
+  text-decoration: none;
+}
+
+.video-promotion {
+    display: none;
+}
+
+.dark-mode .page-common td {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+/* 00000000000000000000000000000000000000000000000 */
+
+@-moz-document url-prefix("https://myanimelist.net/anime"), url-prefix("https://myanimelist.net/manga") {
+div.detail-characters-list div.picSurround a:not(.fw-n) img.lazyloaded {
+    height: auto;
+    width: 135%;
+    margin-right: -30px;
+}
+
+div.detail-characters-list div.picSurround a.fw-n img {
+    height: auto;
+    width: 80%;
+}
+}
+
+@-moz-document regexp("https://myanimelist\\.net/anime.*characters.*"), regexp("https://myanimelist\\.net/manga.*characters.*") {
+td[valign=top]:not(.borderClass) {
+    width: 27px;
+}
+
+td[align=right]:not(.borderClass) {
+    width: auto;
+}
+
+div.picSurround a:not(.fw-n) img, div.picSurround a.fw-n img {
+    height: auto;
+    width: 80%;
+}
+}
+
+@-moz-document url-prefix("https://myanimelist.net/character") {
+td:first-child.borderClass[valign=top] {
+    width: 27px;
+}
+div.picSurround a:not(.js-picture-gallery) img.lazyloaded {
+    height: auto;
+    width: 80%;
+}
+}
+
